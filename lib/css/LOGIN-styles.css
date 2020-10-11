@@ -1,0 +1,78 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;  
+  font-family: 'Palatino Linotype', 'Lucida Sans Unicode', Verdana, san-serif;
+  margin: 0;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background: #f06d06;
+  text-align: center;
+  color: #E0FFFF;
+}
+#login-header {
+  color: palevioletred;
+}
+
+#Top-level-container {
+  width: 50%;
+  height: 75%;
+  display: grid;
+  justify-items: center;
+  aligh-items: center;
+  background-color: #7FFFD4;
+  border-radius: 13px; /* Round-out the edges of a color-filled container */
+  box-shadow: 0px 0px 5px 2px crimson;
+}
+
+#login-error-msg-container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+#login-error-msg {
+  width: 23%;
+  text-align: center;
+  margin: 0;
+  padding: 5px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #B73239;
+  border: 1px solid lightslategray;
+  background-color: #e58f8f;
+  border-radius: 21px;
+  box-shadow: 8px 13px 15px 3px darkslategrey;
+  opacity: 0; /* hide the warning box until a condition is met */
+}
+
+#error-msg-second-line {
+  display: block;
+}
+
+#LOGIN-form {
+  align-self: flex-start;
+  display: grid;
+  /*align-items: center; */
+}
+
+.LoginForm-field {
+  border-bottom: 1px solid #3a3a3a;
+  border-radius: 3px;
+  outline: none;
+  padding: 0px 0px 5px 5px;
+}
+
+#LOGIN-form-submit {
+  width: 100%;
+  color: green;
+  font-weight: bold;
+  background-color: silver;
+  cursor: pointer;
+  outline: none;
+}

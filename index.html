@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">  <!-- Set the pages character encoding; Universal boilerplate -->
+  <!-- Dynamically scale the page based on device, Set the viewport; Universal boilerplate -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta application-name="VaxPort">
+  <meta name="author" content="Adam David Berry">
+  <meta name="description" content="Portable On-demand Electronic vaccination record">
+  <meta name="keywords" content="vaccination, immunization, EHR, patient, FHIR, travel, travel medicine">
+  <title>VaxPort LOGIN</title>  <!-- Entry displayed in the title bar/tab -->
+  
+  <link rel="stylesheet" type="text/css" href="./lib/css/LOGIN-styles.css">
+  <script defer src="./lib/js/logic.js"></script> <!-- Only execute JavaScript after the page load completely -->
+  
+</head>
+
+<body>
+  <!-- "While <main> and the other semantic elements are functionally the same as <div>s in the sense that they wrap other elements, the former provide the browser more information about the contents of web pages and facilitate the work of tools like screen readers, which are essential to make the web more accessible." -->
+  <main id="Top-level-container">
+    <h1 id="login-header">Who goes there...</h1>
+    
+    <form id="LOGIN-form">
+      <input type="text" name="username" id="username-field" class="LoginForm-field" placeholder="Username">
+      <input type="password" name="password" id="password-field" class="LoginForm-field" placeholder="Password">
+      <input type="submit" value="LOGIN" id="LOGIN-form-submit">
+    </form>
+  </main>
+</body>
+
+</html>

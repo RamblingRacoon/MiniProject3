@@ -1,0 +1,83 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: 'Palatino Linotype', 'Lucida Sans Unicode', Verdana, san-serif;
+  display: grid;
+}
+.banner {
+  display: grid;
+  background: teal;	
+  color: gold;
+  font-size: x-large;
+  border-radius: 8px; /* Round-out the edges of a color-filled container */
+}
+
+#patientName{
+  padding-right: 30px;
+}
+
+#dob{
+  padding-right: 30px;
+}
+
+main {
+  display: grid;
+  background-color: #7FFFD4;
+  border-radius: 13px; /* Round-out the edges of a color-filled container */
+  box-shadow: 0px 0px 5px 2px crimson;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3%;
+}
+
+th {
+  background: white;
+  color: crimson;
+  border: 3px solid crimson;
+  text-align: center;
+  padding: 7px;
+}
+
+td {
+  border: 2px solid silver;
+  text-align: left;
+  padding: 9px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.travelSelect_container{
+	display: inline-block;
+}
+
+form{
+  display: inline;
+}
+
+#prompt{
+  margin-left: 7%;
+}
+
+#travelDestination{
+  margin-left: 7%;
+}
+
+figure{
+  display: inline-grid;
+}
+
+#reccomendedVaccines{
+  display: inline-grid;
+  
+}
